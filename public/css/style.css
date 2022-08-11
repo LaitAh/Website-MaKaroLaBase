@@ -1,19 +1,42 @@
+body {
+  font-family: 'Figtree', sans-serif;
+  /* width: 100%; */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /******************** HEADER ********************/
 
 header {
-
 }
 
 .main-nav {
-
 }
 
 .nav-list {
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-element {
+  padding: 1em;
+  font-size: 1.25em;
+}
 
+.nav-link {
+  background-color: red;
+}
+
+.nav-icon {
+  background-color: green;
+  width: 10%;
 }
 
 #nav-home {
@@ -21,11 +44,11 @@ header {
 }
 
 #nav-bouffeBox {
-
+  /* display: none; */
 }
 
 #nav-beachBox {
-
+  /* display: none; */
 }
 
 #nav-bakeryBox {
@@ -44,39 +67,94 @@ header {
 }
 
 .img-banner {
-
+  background-color: royalblue;
+  width: 100vw;
 }
 
 .title {
+  text-align: center;
+  color: white;
+  background-color: #00AD37;
+  padding: 1em;
+}
 
+.delivery-details {
+  text-align: center;
 }
 
 h2 {
-
-}
-
-.box {
-
+  margin-top: 1em;
+  text-align: center;
+  color: #00AD37;
 }
 
 h3 {
+  margin-bottom: 0;
+}
 
+h4 {
+  margin-top: 0.75em;
+}
+
+.box {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .menus {
-
+  width: 270px;
+  height: 270px;
+  margin: 0.5em auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  font-weight: 800;
+  color: white;
+  text-transform: uppercase;
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 0;
 }
 
 #bouffeBox {
-
+  background-image: url("../img/bouffe/bouffe-test.jpg");
 }
 
 #beachBox {
-
+  background-image: url("../img/beach/beach-test.jpg");
 }
 
 #bakeryBox {
+  background-image: url("../img/bakery/bakery-test.jpg");
+}
 
+.menus a {
+  padding: 0.5em;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.toCome {
+  display: block;
+  z-index: -1;
+  background-image: url("../img/toCome.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 270px;
+  height: 270px;
+}
+
+.toCome a {
+  position: relative;
+  background-color: transparent;
+  font-weight: 400;
+  color: rgb(190, 190, 190);
+  /* text-transform: lowercase; */
+  font-size: 0.75em;
+  top: 140px;
 }
 
 /******************** BOUFFE PAGE ********************/
@@ -85,4 +163,99 @@ h3 {
 
 /******************** BAKERY PAGE ********************/
 
+.bakery-title {
+  background-color: tomato;
+}
+
+.bakery-list {
+  background-color: turquoise;
+}
+
+.bakery-element {
+  background-color: violet;
+}
+
+.bakery-element--list {
+  background-color: yellow;
+}
+
+.bakery-element--portions {
+  background-color: blue;
+}
+
+.bakery-element--flavor {
+  background-color: green;
+}
+
+.price {
+  background-color: hotpink;
+}
+
+.individually {
+  background-color: indigo;
+}
+
 /******************** CONTACT PAGE ********************/
+
+/******************** FOOTER ********************/
+
+.backToTop {
+  display: inline-block;
+  border: solid #00AD37;
+  padding: 0.5em;
+  margin: 0.5em;
+  text-align: center;
+}
+
+.backToTop-arrow {
+  font-weight: 800;
+  font-size: 2em;
+  color: #00AD37;
+}
+
+footer {
+  background-color: #00AD37;
+  color: white;
+  padding: 0.5em;
+}
+
+.footer-title {
+
+}
+
+.footer-text {
+
+}
+
+.footer-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#footer-left {
+  border-top: solid white 1px;
+}
+
+#footer-right {
+  border-top: solid white 1px;
+}
+
+.footer-element {
+  padding: 0.5em 0;
+}
+
+.footer-icon {
+  font-size: 1.5em;
+}
+
+#footer-email {
+
+}
+
+#footer-phone .footer-icon {
+  font-size: 1em;
+}
+
+#footer-address {
+
+}

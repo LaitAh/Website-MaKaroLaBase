@@ -1,17 +1,17 @@
 <main class="home">
-  <img src="#" alt="Logo de maKaro" class="img-banner">
+  <img src="<?= $absoluteUrl ?>/img/banner.jpg" alt="Bannière avec le logo maKaro" class="img-banner">
   <h1 class="title">
     Cuisine vegan bio, faites maison, 100% gourmande
   </h1>
-  <h2>
-    Commandez la veille pour la livraison de 11h à 19h.
-    <span>Zone de livraison : Marseille du 1er au 12ème (voir Contact pour plus de détail)</span>
-  </h2>
+  <div class="delivery-details">
+    <h3>Commandez la veille pour la livraison de 11h à 19h.</h3>
+    <h4>Zone de livraison : Marseille du 1er au 12ème (voir Contact pour plus de détail)</h4>
+  </div>
 
+  <h2>Découvrez nos box</h2>
   <section class="box">
-    <h3>Découvrez nos box</h3>
-    <div class="menus" id="bouffeBox"><a href="#">bouffeBox</a></div>
-    <div class="menus" id="beachBox"><a href="#">beachBox</a></div>
+    <div class="menus" id="bouffeBox"><span class="toCome"><a href="#">bouffeBox</a></span></div>
+    <div class="menus" id="beachBox"><span class="toCome"><a href="#">beachBox</a></span></div>
     <div class="menus" id="bakeryBox"><a href="#">pâtisserie</a></div>
   </section>
 
