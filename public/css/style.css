@@ -164,35 +164,52 @@ h4 {
 /******************** BAKERY PAGE ********************/
 
 .bakery-title {
-  background-color: tomato;
 }
 
 .bakery-list {
-  background-color: turquoise;
+  list-style-type: none;
+  padding: 0;
 }
 
 .bakery-element {
-  background-color: violet;
+  font-weight: 500;
+  font-size: 1.25em;
+  border-bottom: solid #00AD37 1px;
+  padding: 0.75em 0;
 }
 
 .bakery-element--list {
-  background-color: yellow;
-}
-
-.bakery-element--portions {
-  background-color: blue;
+  list-style-type: square;
+  padding-left: 1em;
 }
 
 .bakery-element--flavor {
-  background-color: green;
+  font-weight: 400;
+  padding-top: 0.5em;
 }
 
 .price {
-  background-color: hotpink;
+  color: #00AD37;
+  float: right;
+  font-weight: 500;
+  font-size: 1em;
 }
 
 .individually {
-  background-color: indigo;
+  font-weight: 300;
+  font-size: 0.75em;
+}
+
+.pie {
+  display: block;
+  padding: 0.25em;
+  padding-left: 0;
+}
+
+.ingredients {
+  display: inline-block;
+  font-weight: 300;
+  font-size: 0.75em;
 }
 
 /******************** CONTACT PAGE ********************/

@@ -2,10 +2,9 @@
 <ul class="bakery-list">
 
   <li class="bakery-element">
-    Cinnamon rolls
-    <ul class="bakery-element--list">
-      <li class="bakery-element--portions">9 pièces <span class="price">12&#8364;</span></li>
-    </ul>
+    Cinnamon rolls 
+    <span class="individually">9 pièces</span> 
+    <span class="price">12&#8364;</span>
   </li>
 
   <li class="bakery-element">
@@ -31,53 +30,63 @@
 
   <li class="bakery-element">
     Brownie
-    <ul class="bakery-element--list">
-      <li class="bakery-element--portions">Environ 9 parts <span class="price">18&#8364;</span></li>
-    </ul>
+    <span class="individually">Environ 9 parts</span> 
+    <span class="price">18&#8364;</span>
   </li>
 
   <li class="bakery-element">
     Banana bread
-    <ul class="bakery-element--list">
-      <li class="bakery-element--portions">Environ 8 part <span class="price">18&#8364;</span></li>
-    </ul>
+    <span class="individually">Environ 8 part</span> 
+    <span class="price">18&#8364;</span>
   </li>
 
   <li class="bakery-element">
     Gâteau au yaourt 
+    <span class="individually">Environ 8 part</span> 
+    <span class="price">18&#8364;</span>
     <ul class="bakery-element--list">
       <li class="bakery-element--flavor">Chocolat</li>
       <li class="bakery-element--flavor">Citron</li>
-      <li class="bakery-element--portions">Environ 8 part <span class="price">18&#8364;</span></li>
     </ul>
   </li>
 
   <li class="bakery-element">
     Carrot cake
-    <ul class="bakery-element--list">
-      <li class="bakery-element--portions">Environ 8 part <span class="price">18&#8364;</span></li>
-    </ul>
+    <span class="individually">Environ 8 part</span> 
+    <span class="price">18&#8364;</span>
   </li>
 
   <li class="bakery-element">
     Tartes
+    <span class="pie">
+      <span class="individually">Tartelette</span> 
+      <span class="price">4,50&#8364;</span>
+    </span>
+    <span class="pie">
+      <span class="individually">4 parts</span> 
+      <span class="price">16&#8364;</span>
+    </span>
+    <span class="pie">
+      <span class="individually">6 parts</span> 
+      <span class="price">22&#8364;</span>
+    </span>
+    <span class="pie">
+      <span class="individually">8 parts</span> 
+      <span class="price">26&#8364;</span>
+    </span>
     <ul class="bakery-element--list">
       <li class="bakery-element--flavor">Fruits rouges <span class="ingredients">pâte sablée, crème à la vanille, mélange de fruits rouges frais</span></li>
       <li class="bakery-element--flavor">Exotique <span class="ingredients">crème coco/passion, ananas, mangue, kiwi frais</span></li>
       <li class="bakery-element--flavor">Banoffe pie <span class="ingredients">pâte à la noix, banane, confiture de lait, chantilly coco</span></li>
       <li class="bakery-element--flavor">Tarte patatin <span class="ingredients">pâte à la noix, pomme, cannelle</span></li>
       <li class="bakery-element--flavor">Tarte citron meringuée <span class="ingredients">pâte à l'amande, crème citron, meringue</span></li>
-      <li class="bakery-element--portions">Tartelette <span class="price">4,50&#8364;</span></li>
-      <li class="bakery-element--portions">4 parts <span class="price">16&#8364;</span></li>
-      <li class="bakery-element--portions">6 parts <span class="price">22&#8364;</span></li>
-      <li class="bakery-element--portions">8 parts <span class="price">26&#8364;</span></li>
     </ul>
   </li>
 
   <li class="bakery-element">
     Gâteau d'anniversaire
     <ul class="bakery-element--list">
-      <li class="bakery-element--portions">La part à partir de <span class="price">5&#8364;</span></li>
+    <span class="individually">La part à partir de</span> <span class="price">5&#8364;</span>
     </ul>
   </li>
 
