@@ -14,7 +14,7 @@ class CoreController {
   public function show($viewName, $viewData = []) {
     global $router;
   
-    $absolutUrl = $_SERVER['BASE_URI'];
+    $absoluteUrl = $_SERVER['BASE_URI'];
   
     extract($viewData);
   
