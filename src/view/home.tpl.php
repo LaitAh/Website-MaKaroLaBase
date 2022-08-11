@@ -8,11 +8,11 @@
     <h4>Zone de livraison : Marseille du 1er au 12ème (voir Contact pour plus de détail)</h4>
   </div>
 
-  <h2>Découvrez nos box</h2>
+  <h2>Choisissez votre box</h2>
   <section class="box">
+    <div class="menus" id="bakeryBox"><a href="#">pâtisserie</a></div>
     <div class="menus" id="bouffeBox"><span class="toCome"><a href="#">bouffeBox</a></span></div>
     <div class="menus" id="beachBox"><span class="toCome"><a href="#">beachBox</a></span></div>
-    <div class="menus" id="bakeryBox"><a href="#">pâtisserie</a></div>
   </section>
 
   <?php
