@@ -15,6 +15,7 @@
     <div class="menus" id="beachBox"><span class="toCome"><a href="#">beachBox</a></span></div>
   </section>
 
+  <img class="separator" src="<?= $absoluteUrl ?>/img/separator.jpg" alt="Image de séparation">
   <?php
     require_once __DIR__ . '/../view/bakery.tpl.php';
   ?>

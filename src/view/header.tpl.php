@@ -13,10 +13,11 @@
 <body>
   <header>
     <nav class="main-nav">
-      <ul class="nav-list">&#9776;
+      <ul class="nav-list">
+        <a href="#" class="nav-burgermenu">&#9776;</a>
         <li class="nav-element" id="nav-home">
           <a href="#" class="nav-link">
-            <img src="<?= $absoluteUrl ?>/img/logo.png" alt="Logo maKaro" class="nav-icon">
+            <img src="<?= $absoluteUrl ?>/img/nav/icon-logo.jpg" alt="Logo maKaro" class="nav-icon">
             Accueil
           </a>
         </li>
