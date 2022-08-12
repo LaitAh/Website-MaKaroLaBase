@@ -1,4 +1,4 @@
-    <a class="backToTop" href="#"><span class="backToTop-arrow">&#8613;</span><br/>Haut</a>
+    <a class="backToTop" href="#"><span class="backToTop-arrow">&#8613;</span></a>
 
     <footer>
       <h4 class="footer-title">maKaro la Base</h4>

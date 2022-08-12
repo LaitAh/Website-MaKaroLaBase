@@ -1,5 +1,8 @@
 <section class="bakery">
-  <h2 class="bakery-title">Pâtisserie</h2>
+  <div class="bakery-top">
+    <img src="<?= $absoluteUrl ?>/img/nav/icon-bakery.jpg" alt="Image de pâtisserie" class="bakery-icon">
+    <h2 class="bakery-title">Pâtisserie</h2>
+  </div>
   <ul class="bakery-list">
   
     <li class="bakery-element">

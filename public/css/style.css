@@ -1,7 +1,13 @@
+html {
+  background-color: #C8F7D7;
+}
+
 body {
   font-family: 'Figtree', sans-serif;
   width: 100%;
+  max-width: 1400px;
   margin: auto;
+  background-color: white;
 }
 
 a {
@@ -83,8 +89,7 @@ header {
 }
 
 .img-banner {
-  background-color: royalblue;
-  width: 100vw;
+  width: 100%;
 }
 
 .title {
@@ -99,9 +104,8 @@ header {
 }
 
 h2 {
-  margin-top: 1em;
+  font-size: 2em;
   text-align: center;
-  color: #00AD37;
 }
 
 h3 {
@@ -116,6 +120,11 @@ h4 {
   text-align: center;
   display: flex;
   flex-direction: column;
+}
+
+.box-title {
+  margin-top: 1em;
+  color: #00AD37;
 }
 
 .menus {
@@ -174,7 +183,7 @@ h4 {
 }
 
 .separator {
-  width: 100vw;
+  width: 100%;
   margin: 1em 0;
 }
 
@@ -182,6 +191,7 @@ h4 {
   .box {
     display: flex;
     flex-direction: row;
+    padding-bottom: 2em;
   }
 }
 
@@ -192,11 +202,21 @@ h4 {
 /******************** BAKERY PAGE ********************/
 
 .bakery {
+  padding: 2em;
+}
 
+.bakery-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bakery-icon {
+  width: 50%;
 }
 
 .bakery-title {
-  
+  margin-top: 0;
 }
 
 .bakery-list {
@@ -252,6 +272,9 @@ h4 {
     background-position: right;
     /* background-size: 100% auto; */
   }
+  .bakery-icon {
+    width: 15%;
+  }
   .bakery-list {
     width: 50%;
   }
@@ -262,11 +285,11 @@ h4 {
 /******************** FOOTER ********************/
 
 .backToTop {
-  display: inline-block;
-  border: solid #00AD37;
+  background-color: white;
   padding: 0.5em;
   margin: 0.5em;
   text-align: center;
+  float: right;
 }
 
 .backToTop-arrow {
