@@ -7,6 +7,7 @@ $router->setBasePath($_SERVER['BASE_URI']);
 
 // *** ROUTES *** //
 
+// --- HOME PAGE ---//
 $router->map(
   'GET',
   '/',
@@ -16,8 +17,50 @@ $router->map(
   ],
   'home'
 );
-// TODO : Contact route, Bakery route & Error route
 
+// --- BAKERY PAGE ---//
+$router->map(
+  'GET',
+  '/patisserie',
+  [
+    'method' => 'bakery',
+    'controller' => 'MenuController',
+  ],
+  'bakery'
+);
+
+// --- BOUFFE PAGE ---//
+$router->map(
+  'GET',
+  '/bouffebox',
+  [
+    'method' => 'bouffebox',
+    'controller' => 'MenuController',
+  ],
+  'bouffebox'
+);
+
+// --- BEACH PAGE ---//
+$router->map(
+  'GET',
+  '/beachBox',
+  [
+    'method' => 'beachbox',
+    'controller' => 'MenuController',
+  ],
+  'beachbox'
+);
+
+// --- CONTACT PAGE ---//
+$router->map(
+  'GET',
+  '/contact',
+  [
+    'method' => 'contact',
+    'controller' => 'ContactController',
+  ],
+  'contact'
+);
 
 $match = $router->match();
 
