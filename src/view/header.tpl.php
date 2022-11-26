@@ -9,6 +9,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;800&display=swap" rel="stylesheet">
   <title>maKaro la Base</title>
+  <meta name="description" content="cuisine vegan, faite maison avec des produits paysans">
+  <meta property="og:title" content="maKaro la Base"/>
+  <meta property="og:description" content="cuisine vegan, faite maison avec des produits paysans"/>
+  <meta property="og:image" content="<?= $absoluteUrl ?>/img/banner.jpg"/>
+  <meta property="og:url" content="https://www.makarolabase.com"/>
 </head>
 <body>
   <header>
@@ -16,33 +21,33 @@
       <ul class="nav-list">
         <a href="#" class="nav-burgermenu">&#9776;</a>
         <li class="nav-element" id="nav-home">
-          <a href="#" class="nav-link">
+          <a href="<?= $absoluteUrl ?>/" class="nav-link">
             <img src="<?= $absoluteUrl ?>/img/nav/icon-logo.jpg" alt="Logo maKaro" class="nav-icon">
-            Accueil
+            home
           </a>
         </li>
         <li class="nav-element" id="nav-bouffeBox">
-          <a href="#" class="nav-link">
+          <a href="<?= $absoluteUrl ?>/bouffebox" class="nav-link">
             <img src="<?= $absoluteUrl ?>/img/nav/icon-bouffe.jpg" alt="Icône bouffeBox" class="nav-icon">
-            BouffeBox
+            bouffeBox
           </a>
         </li>
         <li class="nav-element" id="nav-beachBox">
-          <a href="#" class="nav-link">
+          <a href="<?= $absoluteUrl ?>/beachbox" class="nav-link">
             <img src="<?= $absoluteUrl ?>/img/nav/icon-beach.jpg" alt="Icône beachBox" class="nav-icon">
-            BeachBox
+            beachBox
           </a>
         </li>
         <li class="nav-element" id="nav-bakeryBox">
-          <a href="#" class="nav-link">
+          <a href="<?= $absoluteUrl ?>/patisserie" class="nav-link">
             <img src="<?= $absoluteUrl ?>/img/nav/icon-bakery.jpg" alt="Icône pâtisserie" class="nav-icon">
-            Pâtisserie
+            pâtisserie
           </a>
         </li>
         <li class="nav-element" id="nav-contact">
-          <a href="#" class="nav-link">
+          <a href="<?= $absoluteUrl ?>/contact" class="nav-link">
             <img src="<?= $absoluteUrl ?>/img/nav/icon-contact.jpg" alt="Icône contact" class="nav-icon">
-            Contact
+            contact
           </a>
         </li>
       </ul>
