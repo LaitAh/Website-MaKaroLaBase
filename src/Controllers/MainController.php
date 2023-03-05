@@ -14,4 +14,13 @@ class MainController extends CoreController {
   public function home() {
     $this->show('home', $viewDate = []);
   }
+
+  /**
+   * Manages the display of the cgv and mentions légales page
+   *
+   * @return void
+   */
+  public function cgv() {
+    $this->show('cgv', $viewDate = []);
+  }
 }

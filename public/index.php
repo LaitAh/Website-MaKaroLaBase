@@ -18,6 +18,17 @@ $router->map(
   'home'
 );
 
+// --- CGV PAGE ---//
+$router->map(
+  'GET',
+  '/cgv-et-mentions-legales',
+  [
+    'method'     => 'cgv',
+    'controller' => 'MainController'
+  ],
+  'cgv'
+);
+
 // --- BAKERY PAGE ---//
 $router->map(
   'GET',
