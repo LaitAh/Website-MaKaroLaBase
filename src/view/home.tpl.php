@@ -1,7 +1,8 @@
 <main class="home">
-  <img src="<?= $absoluteUrl ?>/img/banner.jpg" alt="Bannière avec le logo maKaro" class="img-banner">
+  <img src="<?= $absoluteUrl ?>/img/banner-desktop.jpg" alt="Bannière avec le logo maKaro" class="img-banner">
   <h1 class="title">
-    cuisine <strong>vegan</strong>, faite maison avec des produits paysans <br/>
+    <strong>cuisine végétalienne sucrée et salée</strong><br/>
+    faite maison, avec des produits paysans<br/>
     <strong>100% gourmande</strong>
   </h1>
 
@@ -17,11 +18,11 @@
     <h4>voir <a href="<?= $absoluteUrl ?>/contact" class="link">contact</a> pour plus de détails</h4>
   </div>
 
-  <img class="separator" src="<?= $absoluteUrl ?>/img/separator.jpg" alt="Image de séparation">
+  <img class="separator" src="<?= $absoluteUrl ?>/img/separator-v2.jpg" alt="Image de séparation">
   <?php
     require_once __DIR__ . '/../view/bakery.tpl.php';
   ?>
-  <img class="separator" src="<?= $absoluteUrl ?>/img/separator.jpg" alt="Image de séparation">
+  <img class="separator" src="<?= $absoluteUrl ?>/img/separator-v2.jpg" alt="Image de séparation">
   <?php
     require_once __DIR__ . '/../view/contact.tpl.php';
   ?>
