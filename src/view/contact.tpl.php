@@ -6,7 +6,7 @@
 
   <div class="contact-box">
     <div class="contact-box--bouffe">
-      <h2>pâtisserie, bouffeBox & beachBox</h2>
+      <h2></h2>
       <div class="contact-box--infos">
         <div class="contact-box--delivery">
           <h3>livraison</h3>
