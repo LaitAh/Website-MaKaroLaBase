@@ -9,10 +9,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="icon" href="<?= $absoluteUrl ?>/img/favicon.ico">
   <title>maKaro la Base</title>
-  <meta name="description" content="cuisine vegan, faite maison avec des produits paysans">
+  <meta name="description" content="Cuisine végétalienne sucrée et salée, faite maison, avec des produits paysans. 100% gourmande !">
   <meta property="og:title" content="maKaro la Base"/>
-  <meta property="og:description" content="cuisine vegan, faite maison avec des produits paysans"/>
+  <meta property="og:description" content="Cuisine végétalienne sucrée et salée, faite maison, avec des produits paysans. 100% gourmande !"/>
   <meta property="og:image" content="<?= $absoluteUrl ?>/img/banner.jpg"/>
   <meta property="og:url" content="https://www.makarolabase.com"/>
 </head>
