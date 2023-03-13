@@ -11,6 +11,7 @@
         <ul class="footer-list" id="footer-left">
           <li class="footer-element" id="footer-email"><a href="mailto:contact@makarolabase.com"><sub><img src="<?= $absoluteUrl ?>/img/icon/icon-mail_white.svg" alt="Icône d'email" class="footer-icon"></sub> contact@makarolabase.com</a></li>
           <li class="footer-element" id="footer-phone"><a href="tel:+33491795670"><sub><img src="<?= $absoluteUrl ?>/img/icon/icon-phone_white.svg" alt="Icône de téléphone" class="footer-icon"></sub> 04.91.79.56.70</a></li>
+          <li class="footer-element" id="footer-phone2"><a href="tel:+33629245411"><sub><img src="<?= $absoluteUrl ?>/img/icon/icon-phone_white.svg" alt="Icône de téléphone" class="footer-icon"></sub> 06.29.24.54.11</a></li>
           <li class="footer-element" id="footer-address"><sub><img src="<?= $absoluteUrl ?>/img/icon/icon-hous_white.png" alt="Icône de maison" class="footer-icon"></sub> 2A boulevard des Cèdres, 13009 Marseille</li>
         </ul>
         <ul class="footer-list" id="footer-right">

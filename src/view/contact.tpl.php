@@ -16,6 +16,7 @@
         <div class="contact-box--order">
           <h3>commander la veille</h3>
           <p><a href="tel:+33491795670"><sub><img src="<?= $absoluteUrl ?>/img/icon/icon-phone_black.svg" alt="Icône de téléphone" class="footer-icon"></sub> 04.91.79.56.70</a></p>
+          <p><a href="tel:+33629245411"><sub><img src="<?= $absoluteUrl ?>/img/icon/icon-phone_black.svg" alt="Icône de téléphone" class="footer-icon"></sub> 06.29.24.54.11</a></p>
           <p><a href="mailto:contact@makarolabase.com"><sub><img src="<?= $absoluteUrl ?>/img/icon/icon-mail_black.svg" alt="Icône d'email" class="footer-icon"></sub> contact@makarolabase.com</a></p>
         </div>
       </div>
