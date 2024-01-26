@@ -1,0 +1,3 @@
+[build]
+  command = "composer install"
+  publish = "vendor"  # Remplacez par le répertoire où les fichiers seront générés
